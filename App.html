@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="App.css">
+</head>
+<body>
+  <div class="quiz-app">
+    <!-- Quiz Container -->
+    <div id="quiz-container">
+      <div id="question" class="question"></div>
+      <div id="options" class="options"></div>
+      <p id="feedback" class="feedback"></p>
+      <div id="navigation" class="navigation"></div>
+    </div>
+    
+    <!-- Result Section -->
+    <div id="result" class="result" style="display: none;">
+      <h2>Quiz Finished!</h2>
+      <p id="score" class="score"></p>
+      <h3>Correct Answers:</h3>
+      <ul id="correct-answers" class="correct-answers"></ul>
+      <button id="restart-button" class="restart-button">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="App.jsx"></script>
+</body>
+</html>
